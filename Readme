@@ -1,0 +1,18 @@
+Johan Durán Cerdas - Costa Rica
+Fecha de ejecución: 24 de diciembre de 2016
+Sistema operativo: Ubuntu
+Version de python: 2.7
+Version de Arduino IDE: 1.8
+
+
+Pasos para la ejecución:
+Descargar e instalar la libreria IRremote en el respectivo arduino IDE
+Cargar el código llamado IRremote_Python_TurnOffPC
+Desde una terminal ejecutar el archivo python llamado pyduino
+
+
+Desde la terminal de arduino verificar los hexadecimales que que son recibidos desde el control remoto
+con base en ellos decidir cual se va a utilizar para apagar el pc y cambiarlo dentro del archivo pyduino.
+
+Otro aspecto que puede ser necesario cambiar es el puerto dependiendo el puerto utilizado por el arduino
+así debe ser escrito dentro del archivo pyduino. 
